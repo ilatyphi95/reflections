@@ -1,0 +1,17 @@
+Question: How did viewing a diff between two versions of a file help you see the bug that was introduced.
+Answer: The program ran before the modification of the keys in the program. After the modification, it was observed that the program would not respond to key press. so one could only infer that the modified version has introduced some error into the program. The starting point is by comparing the working version of the program to the modified version. Through this comparism, it was observed that a typo-graphical error was responsible for the bug. The process of debbuging would have been tedious if the different part of the two versions were not isolated from the whole code.
+
+Question: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+Answer: Having easy access to entire history of a file make me more efficient programmer in the long term by making me keep tracks of various changes I made at different time. With this ability, I only need to concentrate only on task at hand and I do not need to waste in ordinate amount of effort in keeping changes in memory. It also enhances file management and modulization of application. Bugs can be easily spotted and fixed by comparing different version of the application
+
+Question: Why do you think some version control system, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Answer: I think this is based on the intended usage of the file in questions. Files processed by Google Docs are files that are less likely to have severe bugs (bugs that prevent the total function of the program). On the other hand, Git deal with file which are more prone to errors. Also, files on Git are interrelated and error with one file can affect the total functionality of the program, this can not be said for files on Google Docs.
+
+Question: How can you use the commands gits log and git diff to view the history of files
+Answer: The command 'git log' shows all the different version of the file, this files are have different id and label. The label can be used to know the changes made in a specific version of the file. The command 'git diff' takes in two arguement the first file and the second file that one wish to compare. The command return a file showing the difference between the two files. If colour ui is enabled globally, the adding to the first file is printed out in green while subtractions is printed out in red.
+
+Question: How might using version control make you more confident to make changes that could break something?
+Answer: Version control saves all the changes made and at any point in time, one could easily revert to a previous version. Having this at the back of my mind makes me less worry about making changes that might affect the way the program works if I have a short at making it better. After all, if the introduced change lead to bug, I can easily revert back to the earlier version of the program.
+
+Question: Now that you have your workspace set up, what do you want to try using Git for?
+Answer: I learn to use Git in order to manage the programs I will be developing using Android Studios. That's my main aim for now but I believe I can apply Git to my furture endeavours beyound Android programing.
