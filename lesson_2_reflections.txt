@@ -1,2 +1,8 @@
 Question: What happens when you initialize a repository? Why do you need to do it?
 Answer: When the repository is initialize a ".git" folder is created. this folder keep tracks of subsequent changes that occur within the folder with the folder ".git". The history can be used to restore the files content to any saved time instance.
+
+Question: How is the staging area different from the working directory and repository? What value do you think it offers
+Answer: The staging area is a temporary storage that houses the new revision that one wishes to commit to the repository. when the command "git commit" is issued, history of files in the staging area are stored in the repository. The staging area hold the modified version until while other files are being worked upon. the staging area hold the files that one wishes to commit to the repository.
+
+Question: How can you use the staging area to make sure you have one commit per logical change
+Answer: The staging area hold changes that are meant to be commited but are not yet committed. By using the command "git status" one could view the files on the staging area. By ensuring there is only one file in the staging area, one could limit the logical change to a single value.
