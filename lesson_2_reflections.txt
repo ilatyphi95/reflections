@@ -1,0 +1,2 @@
+Question: What happens when you initialize a repository? Why do you need to do it?
+Answer: When the repository is initialize a ".git" folder is created. this folder keep tracks of subsequent changes that occur within the folder with the folder ".git". The history can be used to restore the files content to any saved time instance.
