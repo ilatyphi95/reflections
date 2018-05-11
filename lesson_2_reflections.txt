@@ -6,3 +6,15 @@ Answer: The staging area is a temporary storage that houses the new revision tha
 
 Question: How can you use the staging area to make sure you have one commit per logical change
 Answer: The staging area hold changes that are meant to be commited but are not yet committed. By using the command "git status" one could view the files on the staging area. By ensuring there is only one file in the staging area, one could limit the logical change to a single value.
+
+Question: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Answer: There are situation when one wants to explore substantial changes while still keeping the intial program intact. These situation may have to do with appearance, language, certain features. This new situation often involves many processes that keeping a single branch while working forth and backward will not be ideal. In such situation, having numerous branches is the most appropriate decision.
+
+Question: How do the diagrams help you visualize the branch structure
+Answer: Branch structure shows the relations between different commit statements. the branch structure shows the commit structures that can be reach through certain tip. This is helpful to ensure the changes made can be properly track to track history.
+
+Question: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Answer: When two branches are merged together the changes made in the two branches are combined into one. This ensure that the changes which can only be accessed individually initially can be access in the merged branch. The diagram representation make it possible to visualize the hieracharial relationship between different commit in a branch.
+
+Question: What are the pros and cons of Git's automatic merging vs. always doing merging manually?
+Answer: Git's automatic merging compares different segments of three files together, the two file that one wishes to merge and the two files common ancestor. Git's automatic merge form a single file by copying the common aspect of the three files then each modification of the ancestors not common to both files. But in situations where each of the two files modifies the same part of the ancestor, the Git's automatic merging is not intellegent enough to merge, so in generates comflict resolution. Git's automatic merging has the advantage of greatly simplifying the process of combining two files but there are time that such merging can lead to error. This error situation is resolved by allowing manual conflict resolution in the merged files.
