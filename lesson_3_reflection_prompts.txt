@@ -18,17 +18,19 @@ automatically stay up-to-date with your remote repository?
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Forks are project that are available but with limited access, project
-    obtained through forks can be modified and updated locally but can not
-    be updated at the source. a person working on forks can only suggest
+    Forks are project that are available alone for cloning and not modification
+    project obtained through forks can be modified and updated locally but can 
+    not be updated at the source. a person working on forks can only suggest
     improvement to forks projects authors and taking such suggestion is at
     their discretion. 
     Clones is the process of copying a project along with the history of 
-    commits and branches. Fork project are often cloned in other to have 
-    access to the history of commits.
+    commits and branches. Fork project are often cloned in other to create a  
+    personalised copy which can be easily update and modified personally.
     Branches are created from the master or another branch in order to 
     experiment on certain feature one might not be totally convinced yet
     that it should be on main project. 
+    Forks are exclusive to GitHub while clone can be done on local machine as
+    well as github.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
