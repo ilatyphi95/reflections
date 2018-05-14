@@ -35,14 +35,14 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    Having a last know state of the remote stored locally has the advantage of giving a basis for merge operations. Successful merge operations cannot be carried out automatically when the same part of the code are modified separately. Having a local copy ensures that the state of the file before modification is known and this is compared with others in order to generate conflict which the user need to resolve manually.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    Collaboration without Git or Github will entail sharing the file with the collaborator. This implies that working on the shared files simultanously will lead to a tedious task when trying to merge and update the master copy. Doing it this way might introduce some bugs into the program but with Git and GitHub, merging and updating can be done seemlessly.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    Creating a separate branch is useful when we want to add other features to the master branch but in the meantime we want the master branch to stay functional. Having extra branches makes safe experimenting on code work without worrying about breaking something. 
